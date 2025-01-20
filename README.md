@@ -63,5 +63,27 @@ Comando para obter a senha do Grafana:
 ```
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 ```
--->
 
+# Ferramentas
+
+## Docker
+
+### Docker Hub
+
+## Kubernetes (k8s)
+
+### k3s
+
+### k3d
+
+### Helm
+
+### Rancher
+
+## Github
+
+### Actions
+
+### Argo
+
+-->
